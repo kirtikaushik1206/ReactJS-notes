@@ -1,12 +1,16 @@
-import "./App.css"
+import ProductTab from "./ProductTab.jsx"
+
 function App() {
-  
-
   return (
-      <h1>Hi</h1>
+    <div>
+      <ProductTab />
+    </div>
+  );
+}
 
-  )
-    }
+
+
+
   
 
-export default App
+export default App;
