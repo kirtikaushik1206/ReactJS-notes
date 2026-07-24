@@ -6,9 +6,9 @@ function ProductTab() {
 
         <>
         <Product title="phone" price={50000} features={options}/>
-<Product title="laptop"  price={80000}/>
+{/*<Product title="laptop"  price={80000}/>
 <Product title="pen" price= {10}/>
-        
+   */}     
         </>
     )
 }
