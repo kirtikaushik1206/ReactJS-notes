@@ -4,9 +4,9 @@ function ProductTab() {
     return(
 
         <>
-        <Product title="phone" price="50,000" />
-<Product title="laptop"  price="80,000"/>
-<Product title="pen" price= "10"/>
+        <Product title="phone" price={50000} />
+<Product title="laptop"  price={80000}/>
+<Product title="pen" price= {10}/>
         
         </>
     )
