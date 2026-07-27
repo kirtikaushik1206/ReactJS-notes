@@ -1,14 +1,13 @@
 import "./Product.css"
 
-function Product({title , price , features}){
+function Product({title ,  features=[]}){
   //  let list = features.map((feature) => <li>{feature}</li>);
-  let styles = { backgroundColor: price >50000 ? "yellow " : ""};
+  //let styles = { backgroundColor: price >50000 ? "yellow " : ""};
     return(
-        <div className="Product " style={styles}>
+        <div className="Product ">
 
             <h3>{title}</h3>
-            <h5>Price: {price}</h5>
-             {price >50000 ? <p>Discount of 5%</p> : null}
+            <h5>{features}</h5>
 
 
 

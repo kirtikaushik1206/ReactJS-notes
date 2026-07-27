@@ -1,10 +1,8 @@
-import ProductTab from "./ProductTab.jsx"
-import MsgBox from "./MsgBox.jsx";
+import MainBox from "./MainBox"; 
 function App() {
   return (
     <div>
-      < MsgBox userName="Kirti" textColor="red"/>
-      <ProductTab />
+      <MainBox/>
     </div>
   );
 }
