@@ -1,8 +1,9 @@
-import MainBox from "./MainBox"; 
+
+import ProductTab from "./ProductTab";
 function App() {
   return (
     <div>
-      <MainBox/>
+      <ProductTab/>
     </div>
   );
 }
