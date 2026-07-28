@@ -1,8 +1,10 @@
 
 function printHello(){
-    console.log("hiii kirti");
+    console.log("hiii ");
 }
-
+function printName(){
+    console.log("Ayush");
+}
 
 export default function Button(){
     return(
@@ -10,7 +12,7 @@ export default function Button(){
 <div>
 
   <button onClick={printHello}>Click me</button>
-
+<p onMouseOver={printName}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam labore, quaerat cupiditate rerum eius porro, hic rem quae voluptatum, dicta exercitationem maxime. Commodi quo culpa voluptas eum necessitatibus provident enim.</p>
 
 
 
