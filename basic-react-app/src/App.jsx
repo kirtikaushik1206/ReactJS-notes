@@ -1,9 +1,9 @@
 
-import ProductTab from "./ProductTab";
+import Button from "./button";
 function App() {
   return (
     <div>
-      <ProductTab/>
+      <Button/>
     </div>
   );
 }
