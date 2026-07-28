@@ -1,9 +1,10 @@
 
 import Button from "./button";
+import Form from "./Form";
 function App() {
   return (
     <div>
-      <Button/>
+    <Form/>
     </div>
   );
 }
