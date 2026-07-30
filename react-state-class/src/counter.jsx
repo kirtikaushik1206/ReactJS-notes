@@ -1,24 +1,40 @@
-
-import { useState } from "react";
-
-
-
-export default function Counter (){
-    let [count , setCount] = useState(0);
-
-let incCount = () =>{
-    setCount(count+1);
-    console.log(count);
-};
-
-return (
-    <div>
-        <h3>Count ={count}</h3>
-        <button onClick={incCount}>Increase Count</button>
-
-    </div>
-)
+import { useState } from "react"
 
 
 
+
+
+export default function Counter(){
+const[Count , setCount] = useState(0);
+
+function incCount(){
+    setCount(Count+1);
+}
+
+function decCount(){
+    if(Count>0){
+    setCount(Count-1);}
+
+}
+
+    return(
+
+<>
+
+
+<div>
+<div>{Count}</div>
+
+    <button onClick={incCount}>Increase Count</button>
+    <button onClick={decCount}>Decrease Count</button>
+</div>
+
+
+
+</>
+
+
+
+
+    )
 }
