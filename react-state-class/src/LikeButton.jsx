@@ -6,10 +6,11 @@ export default function LikeButton() {
     let toggle = () => {
         setIsLike(!isLike);
     };
+    let likeStyle = {color:"red"};
 
     return (
         <p onClick={toggle} style={{cursor:"pointer"}}>
-            <i className={isLike ? "fa-regular fa-heart" : "fa-solid fa-heart"}></i>
+           <i className={isLike ? "fa-solid fa-heart" : "fa-regular fa-heart"} style={likeStyle}></i>
         </p>
     );
 }
