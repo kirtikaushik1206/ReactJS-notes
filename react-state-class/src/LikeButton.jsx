@@ -4,7 +4,7 @@ export default function LikeButton() {
     let [isLike, setIsLike] = useState(false);
 
     let toggle = () => {
-        setIsLike(!isLike);
+        setIsLike(!isLike); // the value of state variabld is updated at render state 
     };
     let likeStyle = {color:"red"};
 
