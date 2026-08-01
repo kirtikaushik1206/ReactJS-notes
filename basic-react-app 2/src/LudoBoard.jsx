@@ -1,4 +1,6 @@
 export default function LudoBoard(){
+
+ let [moves , setmoves] = ({blue:0 , red:0 , yellow:0 , green:0 })
     return(
 
 
