@@ -2,7 +2,7 @@
 import './App.css'
 
 function App() {
-
+// concepts:
 // first -> side-effect function
 // second -> clean-up function 
 //third -> comma seperated dep list
@@ -18,7 +18,7 @@ function App() {
      second
    }
  }, [third])
- 
+
   return (
   <div>Hello Kirti</div>
   )
